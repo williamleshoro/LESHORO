@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>William Leshoro | Professional Business Consultant & Creator</title>
+    <meta name="description" content="William Leshoro - Business Management Consultant, Front-End Developer, Music Producer & Video Editor based in Allanridge, South Africa. Bridging corporate strategy and creative execution." />
+    <meta name="keywords" content="William Leshoro, Business Consultant South Africa, Front-End Developer South Africa, Beat Maker, Music Producer, Video Editor, Allanridge, Free State" />
+    <meta name="author" content="William Leshoro" />
+    
+    <!-- Font Awesome for sleek professional icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+    <!-- External Custom Stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+    
+    <!-- JS Activation Checker for Local CORS Export Compatibility -->
+    <script>
+      document.documentElement.className += ' js-enabled';
+    </script>
+  </head>
+  <body>
+
+    <!-- STICKY NAVIGATION BAR -->
+    <header class="header sticky-nav">
+      <div class="nav-container">
+        <a href="#home" class="logo uppercase tracking-widest text-[19px] font-bold">
+          <span class="serif italic gold-text font-normal normal-case">W.</span>LESHORO
+        </a>
+        
+        <nav style="flex-grow: 1; display: flex; justify-content: center;">
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#gallery" class="nav-link">Gallery</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Mockup extra language/selector on the right -->
+        <div class="header-extra font-mono text-[11px] font-bold tracking-widest text-slate-500 uppercase flex gap-2 items-center" style="display: flex; gap: 8px;">
+          <span class="active-lang text-red-600 gold-text" style="color: var(--accent);">RSA</span>
+          <span class="opacity-30">|</span>
+          <span>FED</span>
+          <span class="opacity-30">|</span>
+          <span>ENG</span>
+        </div>
+        
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation menu" aria-expanded="false" style="margin-left: 20px;">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- ==========================================
+           HOME / HERO SECTION
+           ========================================== -->
+      <section id="home" class="hero-section">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <span class="hero-tagline-modern">Hello</span>
+            <h1 class="hero-heading serif">
+              I'm <span class="gold-text font-bold text-rose-600" style="color: var(--accent);">William</span> Leshoro
+            </h1>
+            <h2 class="hero-subheading uppercase tracking-[0.1em] text-xs font-bold opacity-80" style="margin-bottom: 20px;">Business Management Professional &amp; Creator</h2>
+            <p class="hero-description">
+              Expert Front-End Developer, Music Producer, and Video Editor delivering highly integrated digital solutions. Bridging corporate strategy with high-end creative execution.
+            </p>
+            <div class="hero-buttons">
+              <!-- DOWNLOAD CV button styled with solid red matching the Jems mockup red button -->
+              <a href="#contact" class="btn btn-primary" style="background: var(--accent); color: #fff; border-radius: 0px; text-transform: uppercase; font-size: 11px; letter-spacing: 0.1em; font-weight: bold; font-family: monospace; padding: 16px 36px; border-color: var(--accent); box-shadow: 0 10px 25px rgba(225, 29, 72, 0.25);">
+                Download CV
+              </a>
+            </div>
+
+            <!-- Social rows positioned cleanly on the bottom left under content -->
+            <div class="hero-socials">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="TikTok">
+                <i class="fa-brands fa-tiktok"></i>
+              </a>
+              <a href="https://wa.me/27780924215" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a href="https://www.youtube.com/@MW_LESHORO" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="YouTube">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          
+          <div class="hero-visual" style="position: relative;">
+            <div class="hero-portrait-container">
+              <div class="artistic-brush-backdrop"></div>
+              <img src="src/assets/images/william back no more.png" alt="William Leshoro" class="hero-portrait-image" referrerPolicy="no-referrer" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Vertical Scroll indicator matching the mockup right edge -->
+        <div class="scroll-down-indicator" onclick="window.location.hash = '#about'">
+          Scroll Down
+        </div>
+      </section>
+
+      <!-- ==========================================
+           ABOUT SECTION
+           ========================================== -->
+      <section id="about" class="about-section section-alt">
+        <div class="container about-grid fade-in-section">
+          <div class="about-image-wrapper">
+            <div class="about-image-container">
+              <img src="src/assets/images/WhatsApp Image 2025-07-25 at 4.08.32 AM (2).jpg" alt="William Leshoro - Professional Profile" class="about-image" referrerPolicy="no-referrer" />
+              <div class="about-image-frame"></div>
+            </div>
+          </div>
+          
+          <div class="about-content">
+            <h2 class="about-heading"><span class="accent-text">About</span> Me</h2>
+            <p class="about-p">
+              I am William Leshoro, a dedicated Business Management Consultant and multi-disciplinary creator. With a background in both business strategy and creative production, I offer a unique perspective that bridges the gap between operational excellence and creative expression.
+            </p>
+            <p class="about-p">
+              My journey began with a passion for helping small businesses navigate the complexities of the modern market. Over the years, I have expanded my skill set to include front-end development, music production, and video editing, allowing me to provide comprehensive support to entrepreneurs and content creators alike.
+            </p>
+            <p class="about-p">
+              I believe that every business has a story to tell and a unique value to offer. My mission is to provide the tools and guidance necessary for you to share that story effectively and grow your venture sustainably.
+            </p>
+            
+            <div class="about-stats">
+              <div class="stat-item">
+                <div class="stat-number">65%</div>
+                <div class="stat-label">Client Satis.</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">3+</div>
+                <div class="stat-label">Expert Skills</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">30+</div>
+                <div class="stat-label">Projects done</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           SERVICES SECTION
+           ========================================== -->
+      <section id="services" class="services-section">
+        <div class="container fade-in-section">
+          <div class="section-header">
+            <h2>My <span class="accent-text">Services</span></h2>
+            <p>Providing custom, high-caliber, strategic business frameworks alongside bespoke design and creative publishing tools.</p>
+          </div>
+          
+          <div class="services-grid">
+            <!-- SERVICE 1 -->
+            <div class="service-card">
+              <div class="service-icon-wrapper">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <h3>Front-End Development</h3>
+              <p>I create modern, responsive, and high-performing websites tailored to the needs of small businesses.</p>
+              <ul class="service-features-list">
+                <li><i class="fa-solid fa-circle-check"></i> Custom Website Design</li>
+                <li><i class="fa-solid fa-circle-check"></i> Responsive Web Development</li>
+                <li><i class="fa-solid fa-circle-check"></i> Landing Page Optimization</li>
+                <li><i class="fa-solid fa-circle-check"></i> Website Maintenance</li>
+              </ul>
+            </div>
+
+            <!-- SERVICE 2 -->
+            <div class="service-card">
+              <div class="service-icon-wrapper">
+                <i class="fa-solid fa-music"></i>
+              </div>
+              <h3>Beat Making</h3>
+              <p>Providing high-quality, original beats and soundscapes for content creators, YouTubers, and musical artists.</p>
+              <ul class="service-features-list">
+                <li><i class="fa-solid fa-circle-check"></i> Custom Beat Production</li>
+                <li><i class="fa-solid fa-circle-check"></i> Sound Design for Videos</li>
+                <li><i class="fa-solid fa-circle-check"></i> Mixing and Mastering</li>
+                <li><i class="fa-solid fa-circle-check"></i> Audio Branding</li>
+              </ul>
+            </div>
+
+            <!-- SERVICE 3 -->
+            <div class="service-card">
+              <div class="service-icon-wrapper">
+                <i class="fa-solid fa-video"></i>
+              </div>
+              <h3>Video Editing</h3>
+              <p>Transforming raw footage into engaging visual stories for social media, marketing, and personal projects.</p>
+              <ul class="service-features-list">
+                <li><i class="fa-solid fa-circle-check"></i> Social Media Content Editing</li>
+                <li><i class="fa-solid fa-circle-check"></i> Color Grading &amp; Correction</li>
+                <li><i class="fa-solid fa-circle-check"></i> Motion Graphics</li>
+                <li><i class="fa-solid fa-circle-check"></i> YouTube Video Production</li>
+              </ul>
+            </div>
+
+            <!-- SERVICE 4 -->
+            <div class="service-card">
+              <div class="service-icon-wrapper">
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <h3>Business Guidance</h3>
+              <p>Strategic consulting for entrepreneurs looking to start, scale, or optimize their business operations.</p>
+              <ul class="service-features-list">
+                <li><i class="fa-solid fa-circle-check"></i> Business Strategy Planning</li>
+                <li><i class="fa-solid fa-circle-check"></i> Market Analysis</li>
+                <li><i class="fa-solid fa-circle-check"></i> Operational Efficiency</li>
+                <li><i class="fa-solid fa-circle-check"></i> Entrepreneurial Coaching</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           GALLERY SECTION
+           ========================================== -->
+      <section id="gallery" class="gallery-section section-alt">
+        <div class="container fade-in-section">
+          <!-- Mike Welly inspired elegant left-aligned header -->
+          <div class="gallery-browsing-header" style="text-align: left; margin-bottom: 30px;">
+            <h2 class="gallery-browsing-title" style="font-family: var(--font-title); font-size: 2.22rem; font-weight: 500; color: var(--text-muted); line-height: 1.35; max-width: 700px; margin-bottom: 20px;">
+              You're now browsing William's<br>
+              <span style="color: var(--text-main); font-weight: 700;">Portfolio Collection</span>
+            </h2>
+          </div>
+          
+          <!-- 3D Infinite Scroll Carousel (Vue Carousel 3D Style - Images Only) -->
+          <div class="carousel-3d-wrapper" style="position: relative; width: 100%; margin: 40px auto 20px auto; overflow: visible;">
+            <div class="carousel-3d-container">
+              <div class="carousel-3d-slider">
+                <!-- Slide 1 (Web) -->
+                <div class="carousel-3d-slide" data-index="0" data-category="Website Projects" data-title="Modern Web Dashboards" data-description="A premium and sleek business intelligence dashboard. Built with top-notch responsive design, modular architecture, and customized CSS panels designed to keep workflows optimized and lightning fast.">
+                  <img src="./src/assets/images/web_projects_1780596281688.png" alt="Website Projects Workflow" class="carousel-3d-img" referrerPolicy="no-referrer" />
+                </div>
+
+                <!-- Slide 2 (Music) -->
+                <div class="carousel-3d-slide" data-index="1" data-category="Music Production" data-title="Acoustic Recording Studio" data-description="An active creative view inside William's primary sound engineering workstation. Outfitted with studio MIDI controllers, monitors, and audio mastering gear to record pristine musical frequencies.">
+                  <img src="./src/assets/images/music_production_1780596298999.png" alt="Music Production Studio layout" class="carousel-3d-img" referrerPolicy="no-referrer" />
+                </div>
+
+                <!-- Slide 3 (Music - Beats) -->
+                <div class="carousel-3d-slide" data-index="2" data-category="Beat Sessions" data-title="Drum Machine Composition" data-description="A live demonstration capturing rhythmic beat compositions. Utilizes hardware drum pads, classic synth plugins, and custom loops to formulate original background soundscapes for artists.">
+                  <img src="./src/assets/images/beat_making_1780596352821.png" alt="Beat Making Drum Sampler Session" class="carousel-3d-img" referrerPolicy="no-referrer" />
+                </div>
+
+                <!-- Slide 4 (Video) -->
+                <div class="carousel-3d-slide" data-index="3" data-category="Video Editing" data-title="Creative Editing Suite" data-description="Dual monitor premium video editing desk. Configured for flawless multi-cam edits, professional grading, audio matching, and cinematic grading output formatted for social media and marketing.">
+                  <img src="./src/assets/images/video_editing_1780596317617.png" alt="Video Editing Workstation" class="carousel-3d-img" referrerPolicy="no-referrer" />
+                </div>
+
+                <!-- Slide 5 (Business) -->
+                <div class="carousel-3d-slide" data-index="4" data-category="Business Guidance" data-title="Consulting Strategy Session" data-description="Professional operational layout mapping growth opportunities. Incorporates real data, charting, and structured strategic consulting methodologies to scale small and medium businesses.">
+                  <img src="./src/assets/images/business_consulting_1780596336177.png" alt="Business Consulting Sessions Materials" class="carousel-3d-img" referrerPolicy="no-referrer" />
+                </div>
+
+                <!-- Slide 6 (Creative Showcase) -->
+                <div class="carousel-3d-slide" data-index="5" data-category="Creative Works" data-title="Holistic Project Portfolio" data-description="Modern visual elements blending software creation, motion design, and audio composition. Highlights William's combined capabilities in crafting immersive digital products.">
+                  <img src="./src/assets/images/creative_showcase_1780596371225.png" alt="Creative Work Showcase branding workspace" class="carousel-3d-img" referrerPolicy="no-referrer" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Handheld / Desktop responsive arrows -->
+            <button class="carousel-3d-btn carousel-3d-prev-btn" aria-label="Previous Image">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="carousel-3d-btn carousel-3d-next-btn" aria-label="Next Image">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- LIGHTBOX OVERLAY MODAL -->
+      <div id="lightbox" class="lightbox">
+        <div class="lightbox-content-wrapper">
+          <button class="lightbox-close" aria-label="Close lightbox modal">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          
+          <button class="lightbox-arrow lightbox-prev" aria-label="Previous image">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          
+          <div class="lightbox-img-container">
+            <img src="" alt="" class="lightbox-img" referrerPolicy="no-referrer" />
+          </div>
+          
+          <button class="lightbox-arrow lightbox-next" aria-label="Next image">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+          
+          <div class="lightbox-info">
+            <span class="lightbox-meta">Category</span>
+            <h3 class="lightbox-title">Project Title</h3>
+            <p class="lightbox-desc">Detailed descriptions of the layout and strategic solutions delivered.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==========================================
+           CONTACT SECTION
+           ========================================== -->
+      <section id="contact" class="contact-section">
+        <div class="container fade-in-section">
+          <div class="section-header">
+            <h2>Get In <span class="accent-text">Touch</span></h2>
+            <p>Have a question or looking to launch a new project? Drop a line and let's collaborate on scaling your vision.</p>
+          </div>
+          
+          <div class="contact-grid">
+            <!-- Contact details left -->
+            <div class="contact-info-container">
+              <div class="contact-detail-card">
+                <!-- Phone -->
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h4>Phone / WhatsApp</h4>
+                    <p><a href="tel:0780924215">078 092 4215</a></p>
+                  </div>
+                </div>
+
+                <!-- Email -->
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h4>Email Address</h4>
+                    <p><a href="mailto:william.wp77@gmail.com">william.wp77@gmail.com</a></p>
+                  </div>
+                </div>
+
+                <!-- Office Address -->
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h4>Office Address</h4>
+                    <p>
+                      14 Crocodile Street<br />
+                      Allanridge, Free State, 9490<br />
+                      South Africa
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Social Links -->
+              <div style="margin-bottom: 30px;">
+                <h4 class="contact-social-title uppercase text-center md:text-left">Connect with me online</h4>
+                <div class="social-links justify-center md:justify-start">
+                  <a href="https://instagram.com/M.W LESHORO" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="TikTok">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                  <a href="https://wa.me/27780924215" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                  <a href="https://www.youtube.com/@MW_LESHORO target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Custom Google Map Styled Iframe -->
+              <div class="map-placeholder">
+                <iframe 
+                   src="https://www.google.com/maps?q=14+Crocodile+Street+Allanridge+9490+South+Africa&output=embed" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+              </div>
+            </div>
+
+            <!-- Contact form right -->
+            <div class="contact-form-card">
+              
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==========================================
+         FOOTER SECTION
+         ========================================== -->
+    <footer>
+      <div class="container footer-grid">
+        <div class="footer-info">
+          <h3>William Leshoro</h3>
+          <p class="footer-subtitle">Business Management Consultant | Front-End Developer | Music Producer | Video Editor</p>
+          <p class="footer-desc">
+            Helping creators and entrepreneurs establish high-performing digital workspaces, optimized operational strategies, and high-quality creative audio/video assets. Let's form an Alliance.
+          </p>
+        </div>
+        
+        <div class="footer-contacts flex flex-col justify-start md:items-end">
+          <p><i class="fa-solid fa-phone"></i> 078 092 4215</p>
+          <p><i class="fa-solid fa-envelope"></i> <a href="mailto:william.wp77@gmail.com" class="text-slate-400 hover:text-[#E2B813] transition-colors">william.wp77@gmail.com</a></p>
+          <p><i class="fa-solid fa-location-dot"></i> Allanridge, Free State, SA</p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 William Leshoro. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- SCROLL TO TOP FLOATING BUTTON -->
+    <button class="scroll-top" aria-label="Scroll back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Link to external custom script.js -->
+    <script src="./script.js"></script>
+  </body>
+</html>
